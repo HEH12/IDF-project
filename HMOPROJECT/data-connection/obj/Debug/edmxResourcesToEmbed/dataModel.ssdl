@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="hmoDataBaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CoronaDetails">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Vaccine1Date" Type="date" />
+    <Property Name="Vaccine2Date" Type="date" />
+    <Property Name="Vaccine3Date" Type="date" />
+    <Property Name="Vaccine4Date" Type="date" />
+    <Property Name="Vaccine1Manufacturer" Type="varchar" MaxLength="50" />
+    <Property Name="Vaccine2Manufacturer" Type="varchar" MaxLength="50" />
+    <Property Name="Vaccine3Manufacturer" Type="varchar" MaxLength="50" />
+    <Property Name="Vaccine4Manufacturer" Type="varchar" MaxLength="50" />
+    <Property Name="PositiveResultDate" Type="date" />
+    <Property Name="RecoveryDate" Type="date" />
+    <Property Name="ID" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityType Name="USERES_HMO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="First_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Last_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Birth_date" Type="date" Nullable="false" />
+    <Property Name="City" Type="varchar" MaxLength="50" />
+    <Property Name="Street" Type="varchar" MaxLength="50" />
+    <Property Name="building_number" Type="int" />
+    <Property Name="cellphone" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="phone" Type="varchar" MaxLength="9" />
+    <Property Name="ID" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="hmoDataBaseModelStoreContainer">
+    <EntitySet Name="CoronaDetails" EntityType="Self.CoronaDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USERES_HMO" EntityType="Self.USERES_HMO" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

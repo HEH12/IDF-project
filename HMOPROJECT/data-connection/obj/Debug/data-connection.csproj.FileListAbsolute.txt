@@ -1,0 +1,12 @@
+C:\Users\hadas\OneDrive\שולחן העבודה\MODHADAS\data-connection\data-connection\bin\Debug\data-connection.exe.config
+C:\Users\hadas\OneDrive\שולחן העבודה\MODHADAS\data-connection\data-connection\bin\Debug\data-connection.exe
+C:\Users\hadas\OneDrive\שולחן העבודה\MODHADAS\data-connection\data-connection\bin\Debug\data-connection.pdb
+C:\Users\hadas\OneDrive\שולחן העבודה\MODHADAS\data-connection\data-connection\bin\Debug\EntityFramework.dll
+C:\Users\hadas\OneDrive\שולחן העבודה\MODHADAS\data-connection\data-connection\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hadas\OneDrive\שולחן העבודה\MODHADAS\data-connection\data-connection\bin\Debug\EntityFramework.xml
+C:\Users\hadas\OneDrive\שולחן העבודה\MODHADAS\data-connection\data-connection\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hadas\OneDrive\שולחן העבודה\MODHADAS\data-connection\data-connection\obj\Debug\data-connection.csprojAssemblyReference.cache
+C:\Users\hadas\OneDrive\שולחן העבודה\MODHADAS\data-connection\data-connection\obj\Debug\data-connection.csproj.CoreCompileInputs.cache
+C:\Users\hadas\OneDrive\שולחן העבודה\MODHADAS\data-connection\data-connection\obj\Debug\data-connection.csproj.CopyComplete
+C:\Users\hadas\OneDrive\שולחן העבודה\MODHADAS\data-connection\data-connection\obj\Debug\data-connection.exe
+C:\Users\hadas\OneDrive\שולחן העבודה\MODHADAS\data-connection\data-connection\obj\Debug\data-connection.pdb

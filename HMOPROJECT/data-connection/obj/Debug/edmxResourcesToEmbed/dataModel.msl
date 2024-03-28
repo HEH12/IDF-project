@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="hmoDataBaseModelStoreContainer" CdmEntityContainer="hmoDataBaseEntities">
+    <EntitySetMapping Name="CoronaDetails">
+      <EntityTypeMapping TypeName="hmoDataBaseModel.CoronaDetails">
+        <MappingFragment StoreEntitySet="CoronaDetails">
+          <ScalarProperty Name="Vaccine1Date" ColumnName="Vaccine1Date" />
+          <ScalarProperty Name="Vaccine2Date" ColumnName="Vaccine2Date" />
+          <ScalarProperty Name="Vaccine3Date" ColumnName="Vaccine3Date" />
+          <ScalarProperty Name="Vaccine4Date" ColumnName="Vaccine4Date" />
+          <ScalarProperty Name="Vaccine1Manufacturer" ColumnName="Vaccine1Manufacturer" />
+          <ScalarProperty Name="Vaccine2Manufacturer" ColumnName="Vaccine2Manufacturer" />
+          <ScalarProperty Name="Vaccine3Manufacturer" ColumnName="Vaccine3Manufacturer" />
+          <ScalarProperty Name="Vaccine4Manufacturer" ColumnName="Vaccine4Manufacturer" />
+          <ScalarProperty Name="PositiveResultDate" ColumnName="PositiveResultDate" />
+          <ScalarProperty Name="RecoveryDate" ColumnName="RecoveryDate" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USERES_HMO">
+      <EntityTypeMapping TypeName="hmoDataBaseModel.USERES_HMO">
+        <MappingFragment StoreEntitySet="USERES_HMO">
+          <ScalarProperty Name="First_name" ColumnName="First_name" />
+          <ScalarProperty Name="Last_name" ColumnName="Last_name" />
+          <ScalarProperty Name="Birth_date" ColumnName="Birth_date" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Street" ColumnName="Street" />
+          <ScalarProperty Name="building_number" ColumnName="building_number" />
+          <ScalarProperty Name="cellphone" ColumnName="cellphone" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
